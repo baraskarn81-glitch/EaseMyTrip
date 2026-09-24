@@ -1,0 +1,1102 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+header{
+    height: 90%;
+    width: 100vw;
+    margin: px;
+
+
+
+}
+img{
+    height: 80%;
+}
+nav{
+    height:  15%;
+    width: 96%;
+    border: 1px solid rgb(168, 141, 141);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 0 10px;
+}
+#nav-link{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+#nav-link li{
+    font-size: 15px;
+     font-weight: 600;
+}
+#nav-link li i{
+    margin-right: 5px;
+
+}
+#nav-link li p{
+    font-weight: 100;
+    font-size: small;
+    color: gray;
+}
+#icon-btn{
+    display: flex;
+    flex-direction: column;
+}
+span img{
+    width: 15px;
+    height: 13px;
+}
+#icon-btn button{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 18px;
+    padding: 8px;
+}
+.nav-sec{
+    width: 96%;
+    height: %;
+    padding: 0 6px;
+   
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+
+}
+.nav-sec li{
+    margin-left: 20px;
+}
+.nav-main-sec{
+    width: 98%;
+    height: 60%;
+    margin: 15px;
+  background: linear-gradient(90deg,rgba(10, 80, 194, 0.73) 10%, rgba(0, 217, 255, 0.9) 97%);
+}
+.nav-main-sec ul{
+    
+    display: flex;
+    align-items: center;
+     gap: 25px;
+
+    padding: ;
+    margin: 10px;
+    color: white;
+    width: 100%;
+    height: 20%;
+    
+    list-style: none;
+}
+#main-sec{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 20px;
+}
+#main-sec h2{
+    width: 20%;
+    color: white;
+}
+#nav-main-sec-bu{
+    padding: 4px;
+    border-radius: 19px;
+    color: grey;
+    background-color: white;
+}
+.destination{
+    width: 95%;
+    height: 28%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    
+}  
+#fro-m{
+    
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#t-o{
+    
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+#Deprture{
+  
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#Deprture span{
+    display: flex;
+}
+#Return{
+   
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#Traveller{
+  
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+#Traveller span{
+    display: flex;
+    align-items: center;
+}
+
+.destination p{
+    font-size: small;
+}
+.dest-start{
+    
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#sear-ch{
+    width: 350px;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    color: white;
+}
+#forces-spacial{
+   width: 100%;
+   height: 25%;
+   display: flex;
+   gap: 21px;
+   align-items: center;
+   padding-left: 10px;
+}
+.forces-main{
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0.352);
+    border-radius: 11px;
+    border: 1px solid white;
+    padding: 11px;
+}
+#dis-btn{
+   
+   border: 2px solid black;
+   background-color: blueviolet;
+   color: red;
+   padding: 11px;
+   height: 30px;
+   width: 100px;
+
+}
+#Discover-more{
+    color: white;
+    background-color: brown;
+}
+.last-icon ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 20px;
+    font-size: medium;
+}
+main{
+    width: 100%;
+    height:auto;
+    border: 1px solid black;
+}
+.Offers h1{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+.Offers ul{
+    margin-top: 25PX;
+    height: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+#best{
+    width: 90px;
+    height: 20px;
+    border-radius: 11px;
+    padding: 5px;
+    background-color:blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#slider{
+    width: 100%;
+    height: 80vh;
+    
+
+}
+#booking-slider{
+    
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#slider-container{
+    width: 2400px;
+    height:80%;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    /border-radius: 11px;
+
+
+}
+.Offer-slider{ 
+    
+    width: 400px;
+    height: 80%;
+    
+    border-radius: 11px;
+    box-shadow: 1px 1px 1px 1px green;
+
+
+}
+.img-slider{
+    width: 100%;
+    height: 60%;
+    color: white;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding;
+}
+.img-slider h4{
+    padding: 0 10px;
+}
+.img-slider h3{
+    padding: 0 10px;
+}
+.content-slider{
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    
+
+}
+.content-slider span{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#slider-1{
+    background-image: url(./aseciment/sliderimage/flightsale.png);
+    background-size: cover;
+}
+#slider-1 button{
+    width: 100px;
+
+}
+#slider-2{
+    background-image: url(./aseciment/sliderimage/ita.png);
+    background-size: cover;
+}
+#slider-3{
+    background-image: url(./aseciment/sliderimage/nocon.png);
+    background-size: cover;
+}
+#slider-3 button{width: 100px;}
+#slider-4{
+    background-image: url(./aseciment/sliderimage/lowest.png);
+    background-size: cover;
+}
+#slider-5{
+    background-image: url(./aseciment/sliderimage/ruftana.png);
+    background-size: cover;
+}
+#slider-6{
+    background-image: url(./aseciment/sliderimage/earn.png);
+    background-size: cover;
+}
+#scroll-slider{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+#scroll-container{
+    width: 200%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    
+
+    
+}
+.scroll-offers{
+    
+    width: 100%;
+    height: 100%;
+    
+    
+
+}
+.image-scoll-offers{
+    display: flex;
+    gap: 10PX;
+}
+.image-scoll-offers img{
+     width: 100%;
+     height: 100%;
+     border-radius: 11px;
+     margin: 0 10px;
+}
+#flyght-root{
+    width: 100%;
+    height: 70vh;
+    
+}
+#flyght-root h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5%;
+    font-size: xx-large;
+    padding: 20px;
+}
+#all-routes{
+    width: 100%;
+    height:80%;
+    
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /gap: 200px;
+    justify-content: space-around;
+    margin-top:px;
+    
+    
+    
+}
+.routes-1{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 15px;
+}
+.content-root p{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.ROOT-ROW-1-1{
+    display: flex;
+    gap: 15px;
+    
+}
+.ROOT-ROW-1-2{
+    display: flex;
+     gap: 15px;
+}
+.ROOT-ROW-1-3{
+    display: flex;
+     gap: 15px;
+}
+.routes-2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+    padding: 15px;
+    width: 35%;
+    height: 100%;
+
+    
+}
+.ROOT-ROW-2-1{
+    display: flex;
+     gap: 15px;
+}
+.ROOT-ROW-2-2{
+    display: flex;
+     gap: 15px;
+}
+.ROOT-ROW-2-3{
+    display: flex;
+     gap: 15px;
+}
+.routes-3{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+    padding: 15px;
+    width: 35%;
+    height: 100%;
+    
+}
+.ROOT-ROW-3-1{
+    display: flex;
+     gap: 15px;
+    
+}
+.ROOT-ROW-3-2{
+    display: flex;
+     gap: 15px;
+}
+.ROOT-ROW-3-3{
+    display: flex;
+     gap: 15px;
+}
+.content-root {
+      font-size: large;
+    
+    /padding: 10px;
+
+}
+.content-root span{
+    display: flex;
+    gap: 10px;
+
+
+}
+.content-root h4{
+    font-size: large;
+}
+.ima-place img{
+   
+    border-radius: 11px;
+    
+}
+#importent{
+    width: 90%;
+    height: 15vh;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 35px;
+}
+.info{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+
+    width: 40%;
+    height: 80%;
+   
+    border-radius: 21px 7px 7px 7px;
+    box-shadow: 1px 1px 2px 2px wheat;
+    
+}
+#img-info{
+ 
+    background-color:darkslateblue;
+    padding: 15px;
+    width: 35px;
+    height: 45%;
+    border-radius: 21px 0px 41px 0px;
+    box-shadow: 2px 2px 3px 3px gainsboro;
+}
+#content-info{
+    padding: 13px;
+
+    /border: 1px solid red;
+}
+.notification{
+     gap: 20px;
+    display: flex;
+    align-items: center;
+
+    width: 40%;
+    height: 80%;
+   
+    border-radius: 21px 7px 7px 7px;
+    box-shadow: 1px 1px 2px 2px wheat;
+    
+}
+#trending{
+    width: 100%;
+    height: 55vh;
+    
+    
+}
+#trending h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 20%;
+    padding-bottom: 20px;
+   
+    
+}
+#Tourist-point{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+    
+}
+.point-image1{
+    color: white;
+    width: 160px;
+    height: 90%;
+     background-image: url(./aseciment/touristpoint/andaman.png);
+    border-radius: 11px;
+    background-size: cover;
+
+}
+.cont-tourist{
+     width: 160px;
+    height: 95%;
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+   
+}
+.point-image2{
+    color: white;
+    width: 160px;
+    height: 90%;
+    background-size: cover;
+     background-image: url(./aseciment/touristpoint/kerala.png);
+    border-radius: 11px;
+
+}
+.point-image3{
+    color: white;
+    width: 160px;
+    height: 90%;
+    background-size: cover;
+     background-image: url(./aseciment/touristpoint/kashmir.png);
+    border-radius: 11px;
+
+}
+.point-image4{
+    color: white;
+    width: 160px;
+    height: 90%;
+    background-size: cover;
+    background-image: url(./aseciment/touristpoint/rajasthan.png);
+    border-radius: 11px;
+
+}
+.point-image5{
+    color: white;
+    width: 160px;
+    height: 90%;
+    background-size: cover;
+    background-image: url(./aseciment/touristpoint/bali.png);
+    border-radius: 11px;
+
+}
+.point-image6{
+    color: white;
+    width: 160px;
+    height: 90%;
+    background-size: cover;
+     background-image: url(./aseciment/touristpoint/dubai.png);
+    border-radius: 11px;
+
+}
+.point-image7{
+    color: white;
+    width: 160px;
+    height: 90%;
+    background-size: cover;
+     background-image: url(./aseciment/touristpoint/srilanka.png);
+    border-radius: 11px;
+
+}
+#Favourite-Places{
+    width: 100%;
+    height: 40vh;
+    background-color:whitesmoke;
+  /  margin-top: 50px;
+    display: flex;
+}
+#Favourite-Places-cont{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    font-size: large;
+    flex-direction: column;
+    justify-content: center;
+   
+    padding-left: 50px;
+}
+.Favourite-Places-img{
+    display: flex;
+    align-items: center;
+    width: 68%;
+    height: 100%;
+    
+    gap: 20px;
+}
+.places-img{
+    
+    width: 17%;
+    height: 80%;
+  
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+   
+    
+}
+#Dehli{
+    background-image: url(./aseciment/placesimg/delhi.png);
+    background-size: cover;
+}
+#Mumbai{
+    background-image: url(./aseciment/placesimg/mumbai.png);
+}
+#Bangalore{
+    background-image: url(./aseciment/placesimg/bangalore.png);
+    background-size: cover;
+}
+#Jaipur{
+    background-image: url(./aseciment/placesimg/jaipur.png);
+    background-size: cover;
+
+}
+#Chennai{
+    background-image: url(./aseciment/placesimg/chennai.png);
+    background-size: cover;
+}
+.place-name{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    
+    background-color: white;
+    border-radius: 11px;
+}
+.place-name p{
+    font-size: small;
+}
+.place-name p a{
+    color: green;
+}
+#blogs{
+    height: 90vh;
+    width: 100%;
+    
+}
+#blogs h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.blog-box{
+    margin-top: 30px;
+    width:100%;
+    height: 60%;
+    
+    display: flex;
+    align-items: center;
+    gap:25px;
+    justify-content: center;
+}
+.travel-blogs{
+    display: flex;
+    width: 20%;
+    height: 100%;
+   border-radius: 21px 21px 21px 21px; 
+    flex-direction: column;
+    box-shadow: 2px 2px 7px 2px rgb(151, 127, 127);
+
+}
+.blog-img{
+    width: 100%;
+    height: 60%;
+    
+    border-radius: 21px 21px 0px 0px;
+}
+.blog-content{
+    width: 100%;
+    height: 40%;
+    
+ border-radius: 0px 0px 21px 21px;
+}
+#travel1{
+    background-image: url(./aseciment/trvelblogs/travel-1.png);
+    background-size: cover;
+}
+#travel2{
+    background-image: url(./aseciment/trvelblogs/travel-2.png);
+    background-size: cover;
+}
+#travel3{
+    background-image: url(./aseciment/trvelblogs/travel-3.png);
+    background-size: cover;
+}
+#travel4{
+    background-image: url(./aseciment/trvelblogs/travel-4.png);
+    background-size: cover;
+}
+.blog-content p{
+    font-size: large;
+    padding: 10px;
+    font-weight: 700;
+    row-gap: 10px;
+}
+.blog-content a{
+    padding: 10px;
+    font-weight: 700;
+    gap: 5px;
+    text-decoration-line: none;
+    
+}
+.blog-img p{
+    color: white;
+  
+    background-color: rgb(173, 76, 76);
+    border-radius: 11px;
+    width: 50px;
+    height: 20px;
+    margin: 10px 0px 0px 10px;
+    padding: 0px 10px;
+}
+#travel3  p{
+     color: white;
+    
+    background-color: rgb(173, 76, 76);
+    border-radius: 11px;
+    width: 80px;
+    height: 20px;
+    margin: 10px 0px 0px 10px;
+    padding: 0px 10px;
+}
+#travel2 p{
+     color: white;
+    background-color: rgb(173, 76, 76);
+    
+    border-radius: 11px;
+    width: 80px;
+    height: 20px;
+    margin: 10px 0px 0px 10px;
+    padding: 0px 10px;
+}
+#blog-btn button{
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 21px;
+    font-size: medium;
+    width:10%;
+    margin-top: 10px;
+
+    
+}
+#blog-btn{
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#books{ 
+    width: 100%;
+    height: 90vh;
+    
+
+}
+#books-top{
+    width: 95%;
+    height: 10%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+}
+#books-top h1{
+    margin-left: 30px;
+}
+#books-top li{
+    list-style: none;
+    
+}
+#books-top ul{
+    display: flex;
+    flex-direction: row;
+    border:  1px solid rgb(19, 15, 15);
+    height: 30px;
+    align-items: center;
+    gap: 5px;
+    font-size: large;
+    padding: 10px;
+    border-radius: 11px;
+}    
+#books-top li i{
+    background-color: darkorange;
+    color: white;
+}
+#solid-star i{
+    color: cadetblue;
+}
+#books-main{
+    width:100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service{
+    width: 15%;
+    height: 80%;
+    border-right: 1px solid rgb(207, 167, 167);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+.service img{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service h5{
+    font-size: large;
+}
+.service p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#deals-service{
+    border: none;
+}
+#main-footer{
+    width: 100%;
+    height: 30%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#side-arrow {
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.main-footer-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 16%;
+    height: 80%;
+   
+    background-color: rgb(225, 251, 252);
+}
+.custo-cont{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+#cont-icon{
+    display: flex;
+    gap: 5px;
+}
+#icon-star{
+    display: flex;
+    gap: 5px;
+    color: goldenrod;
+    background-color:;
+}
+#icon-star i{
+    background-color: rgb(13, 85, 13);
+}
+.custo-cont h5{
+    font-size: medium;
+}
+#customer-review{
+   display: flex;
+   /align-items: center;
+   justify-content: end;
+   /margin-top: 35%;
+}
+#customer-review h6{
+    font-size: medium;
+}
+#main-heritage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    border: 5px solid brown;
+    background-image: url(./aseciment/bookmain/heritage.png);
+    background-size: cover;
+
+    
+}
+.Heritage-cont button{
+    background-color: green;
+    color: white;
+    padding: 30%;
+
+}
+footer{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid rgb(141, 25, 145);
+    color: white;
+    background-color: rgb(51, 32, 32);
+}
+.footer-top{
+    width: 100%;
+    height: 61%;
+    border-bottom: 1px solid rgb(197, 111, 111);
+    display: flex;
+    gap: 30px;
+}
+.offer-footer{
+    margin-left: 20px;
+}
+.offer-footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: large;
+    
+}
+.offer-footer ul li{
+border-bottom: 1px solid rgb(197, 111, 111);
+}
+.airlines {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.line1{
+    display: flex;
+    gap: 80px;
+    
+}
+.line1 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.download-footer{
+    margin-left: 30px;
+    width: 100%;
+    height: 30%;
+    border-bottom: rgb(197, 111, 111);
+    display: flex;
+    gap: 30px;
+    
+
+}
+#paira-footer{
+    width: 55%;
+    height: 100%;
+}
+#paira-footer img{
+    height: 50px;
+    width: 150px;
+}
+#download-app{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+#download-app img{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 40px;
+}
+#scan-code img{
+    width: 100px;
+    height: 100px;
+
+}
+#scan-code{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
