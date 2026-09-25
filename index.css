@@ -16,6 +16,14 @@ header{
 
 
 }
+#fixed-logo{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+}
 img{
     height: 80%;
 }
@@ -83,6 +91,7 @@ span img{
     height: 60%;
     margin: 15px;
   background: linear-gradient(90deg,rgba(10, 80, 194, 0.73) 10%, rgba(0, 217, 255, 0.9) 97%);
+  overflow: hidden;
 }
 .nav-main-sec ul{
     
@@ -206,27 +215,32 @@ span img{
    gap: 21px;
    align-items: center;
    padding-left: 10px;
+   color: white;
 }
 .forces-main{
     gap: 5px;
-    background-color: rgba(255, 255, 255, 0.352);
+    /background-color: rgba(255, 255, 255, 0.352);
     border-radius: 11px;
-    border: 1px solid white;
-    padding: 11px;
+    border: 1px solid rgb(240, 226, 226);
+    padding: 7px 15px;
 }
-#dis-btn{
-   
-   border: 2px solid black;
-   background-color: blueviolet;
-   color: red;
-   padding: 11px;
-   height: 30px;
-   width: 100px;
-
+.forces-main p{
+    font-size: small;
+    margin-left: 20px;
+}
+.forces-main h6{
+    font-size: large;
+    font-weight: 100;
 }
 #Discover-more{
+    width: 100px;
+    height: 30px;
     color: white;
-    background-color: brown;
+    border-radius: 11px;
+    background-color: rgb(161, 116, 204);
+   margin-left: 30px;
+   margin-top: 35px;
+   border: 1px solid white;
 }
 .last-icon ul{
     display: flex;
@@ -375,6 +389,7 @@ main{
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 11px;
     
 
@@ -382,15 +397,40 @@ main{
 }
 .scroll-offers{
     
-    width: 100%;
+    width: 90%;
     height: 100%;
-    
+    align-items: center;
+    justify-content: center;
     
 
 }
 .image-scoll-offers{
+    position: relative;
     display: flex;
-    gap: 10PX;
+    gap: 30PX;
+}
+.icon-position{
+    position: absolute;
+    width: 103%;
+    top: 40%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    left: -8px;
+    right:-10px;
+    
+
+}
+.icon-position i{
+    width:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+
 }
 .image-scoll-offers img{
      width: 100%;
@@ -969,8 +1009,11 @@ main{
     height: 70%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /align-items: center;
     gap: 5px;
+}
+.custo-cont p{
+    display: flex;
 }
 #cont-icon{
     display: flex;
@@ -990,9 +1033,7 @@ main{
 }
 #customer-review{
    display: flex;
-   /align-items: center;
-   justify-content: end;
-   /margin-top: 35%;
+ 
 }
 #customer-review h6{
     font-size: medium;
@@ -1000,20 +1041,41 @@ main{
 #main-heritage{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 60vh;
-    border: 5px solid brown;
+   border-bottom: 8px solid rgb(103, 103, 212);
+    
     background-image: url(./aseciment/bookmain/heritage.png);
     background-size: cover;
 
     
 }
-.Heritage-cont button{
-    background-color: green;
+.Haritage-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 50%;
+     
+
+     margin-top: 8%;
+}
+.Haritage-cont a{
+    color: red;
+    text-decoration-line: none;
+    background-color: antiquewhite;
+
+}
+.Haritage-cont button{
+    background-color:goldenrod;
     color: white;
-    padding: 30%;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+    gap: 5px;
+
+    border-radius: 16px 16px 16px 16px;
+    height: 40px;
+    width: 200px;
 
 }
 footer{
@@ -1026,12 +1088,19 @@ footer{
 .footer-top{
     width: 100%;
     height: 61%;
-    border-bottom: 1px solid rgb(197, 111, 111);
+    
     display: flex;
     gap: 30px;
+    margin-top: 10px;
 }
 .offer-footer{
     margin-left: 20px;
+    
+}
+#our{
+    background-color: blueviolet;
+    border-radius: 7px 37px 37px 7px;
+    padding: 5px;
 }
 .offer-footer ul {
     list-style: none;
@@ -1061,12 +1130,14 @@ border-bottom: 1px solid rgb(197, 111, 111);
     gap: 7px;
 }
 .download-footer{
-    margin-left: 30px;
+    margin-top: 15px;
     width: 100%;
-    height: 30%;
-    border-bottom: rgb(197, 111, 111);
+    height: 25%;
+    border-top: 1PX solid rgb(199, 143, 143);
     display: flex;
+    justify-content: space-around;
     gap: 30px;
+    padding: 5px;
     
 
 }
@@ -1084,6 +1155,10 @@ border-bottom: 1px solid rgb(197, 111, 111);
     gap: 10px;
 
 }
+.down-img{
+    display: flex;
+    gap: 7px;
+}
 #download-app img{
     display: flex;
     flex-direction: row;
@@ -1099,4 +1174,19 @@ border-bottom: 1px solid rgb(197, 111, 111);
     gap: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: ;
+}
+#copy-write{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(165, 137, 137);
+    margin-left: 15px;
+    color: rgb(187, 171, 171);
+}
+#copy-write img{
+    width: 50%;
+    height: 60%;
 }
