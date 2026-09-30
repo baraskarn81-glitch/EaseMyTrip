@@ -29,14 +29,14 @@ img{
 }
 nav{
     height:  15%;
-    width: 96%;
-    border: 1px solid rgb(168, 141, 141);
+    width: 100%;
+    border-bottom: 1px solid rgb(168, 141, 141);
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin: 15px;
-    padding: 0 10px;
+    justify-content: space-around;
+   
+    gap: 115px;
 }
 #nav-link{
     list-style: none;
@@ -47,6 +47,7 @@ nav{
 #nav-link li{
     font-size: 15px;
      font-weight: 600;
+     gap: 10px;
 }
 #nav-link li i{
     margin-right: 5px;
@@ -73,9 +74,9 @@ span img{
     padding: 8px;
 }
 .nav-sec{
-    width: 96%;
-    height: %;
-    padding: 0 6px;
+    width: 100%;
+    height: 7%;
+    margin-left: 50px;
    
     display: flex;
     align-items: center;
@@ -85,16 +86,15 @@ span img{
 }
 .nav-sec li{
     margin-left: 20px;
+    
 }
 .nav-main-sec{
-    width: 98%;
+    width: 100%;
     height: 60%;
-    margin: 15px;
   background: linear-gradient(90deg,rgba(10, 80, 194, 0.73) 10%, rgba(0, 217, 255, 0.9) 97%);
   overflow: hidden;
 }
 .nav-main-sec ul{
-    
     display: flex;
     align-items: center;
      gap: 25px;
@@ -111,34 +111,37 @@ span img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
-    padding: 20px;
+    height: 20px;
+    padding: 15px;
+    margin: 0 40px;
 }
 #main-sec h2{
-    width: 20%;
+    width: 23%;
     color: white;
 }
 #nav-main-sec-bu{
-    padding: 4px;
+    padding: 4px 10px;
     border-radius: 19px;
     color: grey;
     background-color: white;
 }
 .destination{
-    width: 95%;
-    height: 28%;
+    width: 90%;
+    height: 31%;
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: px;
-    margin: 10px;
+    padding: 5px 5px 0px 5px;
+    margin: 10px 65px;
     background-color: white;
     color: black;
+    border-radius: 7px;
     
 }  
 #fro-m{
     
-    width: 450px;
+   border-right: 1px solid rgb(240, 225, 225);
+    width: 650px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -146,15 +149,17 @@ span img{
 }
 #t-o{
     
-    width: 450px;
+   border-right: 1px solid rgb(240, 225, 225);
+    width: 650px;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 } 
 #Deprture{
-  
-    width: 450px;
+    
+   border-right: 1px solid rgb(240, 225, 225);  
+    width: 500px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -166,7 +171,8 @@ span img{
 }
 #Return{
    
-    width: 450px;
+   border-right: 1px solid rgb(240, 225, 225);
+    width: 500px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -174,12 +180,12 @@ span img{
 
 }
 #Traveller{
-  
-    width: 450px;
+    width: 500px;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
     
 
 }
@@ -199,8 +205,10 @@ span img{
     flex-direction: row;
 }
 #sear-ch{
-    width: 350px;
-    height: 100%;
+    width: 600px;
+    height: 90%;
+    padding: 9px 10px;
+    border-radius: 0px 7px 7px 0px;
     
     display: flex;
     align-items: center;
@@ -216,10 +224,10 @@ span img{
    align-items: center;
    padding-left: 10px;
    color: white;
+   margin: 0px 50px;
 }
 .forces-main{
     gap: 5px;
-    /background-color: rgba(255, 255, 255, 0.352);
     border-radius: 11px;
     border: 1px solid rgb(240, 226, 226);
     padding: 7px 15px;
@@ -233,26 +241,26 @@ span img{
     font-weight: 100;
 }
 #Discover-more{
-    width: 100px;
+    width: 140px;
     height: 30px;
     color: white;
-    border-radius: 11px;
-    background-color: rgb(161, 116, 204);
-   margin-left: 30px;
-   margin-top: 35px;
+    border-radius: 8px;
+    background-color: rgb(182, 151, 211);
+   margin-left: 55px;
+   margin-top: 52px;
    border: 1px solid white;
+   font-weight: 400;
 }
 .last-icon ul{
     display: flex;
     gap: 30px;
     list-style: none;
-    margin: 20px;
+    margin: 15px 55px;
     font-size: medium;
 }
 main{
     width: 100%;
     height:auto;
-    border: 1px solid black;
 }
 .Offers h1{
        display: flex;
@@ -260,7 +268,8 @@ main{
        justify-content: center;
 }
 .Offers ul{
-    margin-top: 25PX;
+    margin-left: 50px;
+    margin-top: 20PX;
     height: 10%;
     display:flex;
     justify-content: center;
@@ -290,7 +299,7 @@ main{
 #booking-slider{
     
     width: 100%;
-    height: 70%;
+    height: 80%;
     display: flex;
     align-items: center;
     overflow-x: auto;
@@ -316,7 +325,7 @@ main{
     height: 80%;
     
     border-radius: 11px;
-    box-shadow: 1px 1px 1px 1px green;
+    box-shadow: 1px 1px 1px 1px rgb(149, 151, 149);
 
 
 }
@@ -459,9 +468,8 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /gap: 200px;
     justify-content: space-around;
-    margin-top:px;
+    margin-left: 40px;
     
     
     
@@ -543,7 +551,7 @@ main{
 .content-root {
       font-size: large;
     
-    /padding: 10px;
+   
 
 }
 .content-root span{
@@ -594,7 +602,7 @@ main{
 #content-info{
     padding: 13px;
 
-    /border: 1px solid red;
+   
 }
 .notification{
      gap: 20px;
@@ -711,7 +719,6 @@ main{
     width: 100%;
     height: 40vh;
     background-color:whitesmoke;
-  /  margin-top: 50px;
     display: flex;
 }
 #Favourite-Places-cont{
@@ -724,11 +731,14 @@ main{
    
     padding-left: 50px;
 }
+#Favourite-Places-cont a{
+    text-decoration: none;
+}
 .Favourite-Places-img{
     display: flex;
     align-items: center;
     width: 68%;
-    height: 100%;
+    height: 90%;
     
     gap: 20px;
 }
@@ -751,6 +761,7 @@ main{
 }
 #Mumbai{
     background-image: url(./aseciment/placesimg/mumbai.png);
+    background-size: cover;
 }
 #Bangalore{
     background-image: url(./aseciment/placesimg/bangalore.png);
@@ -779,6 +790,7 @@ main{
     font-size: small;
 }
 .place-name p a{
+    text-decoration: none;
     color: green;
 }
 #blogs{
@@ -820,7 +832,6 @@ main{
 .blog-content{
     width: 100%;
     height: 40%;
-    
  border-radius: 0px 0px 21px 21px;
 }
 #travel1{
@@ -855,7 +866,7 @@ main{
 .blog-img p{
     color: white;
   
-    background-color: rgb(173, 76, 76);
+   background-color: rgb(43, 35, 35);
     border-radius: 11px;
     width: 50px;
     height: 20px;
@@ -865,7 +876,7 @@ main{
 #travel3  p{
      color: white;
     
-    background-color: rgb(173, 76, 76);
+    background-color: rgb(43, 35, 35);
     border-radius: 11px;
     width: 80px;
     height: 20px;
@@ -874,7 +885,7 @@ main{
 }
 #travel2 p{
      color: white;
-    background-color: rgb(173, 76, 76);
+    background-color: rgb(43, 35, 35);
     
     border-radius: 11px;
     width: 80px;
@@ -890,6 +901,7 @@ main{
     font-size: medium;
     width:10%;
     margin-top: 10px;
+    border: none;
 
     
 }
@@ -910,7 +922,7 @@ main{
 #books-top{
     width: 95%;
     height: 10%;
-    
+    margin-left: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -919,6 +931,7 @@ main{
 }
 #books-top h1{
     margin-left: 30px;
+    font-size: large;
 }
 #books-top li{
     list-style: none;
@@ -934,6 +947,7 @@ main{
     font-size: large;
     padding: 10px;
     border-radius: 11px;
+    margin-right: 50px;
 }    
 #books-top li i{
     background-color: darkorange;
@@ -1009,10 +1023,10 @@ main{
     height: 70%;
     display: flex;
     flex-direction: column;
-    /align-items: center;
+    padding-left: 25px;
     gap: 5px;
 }
-.custo-cont p{
+/.custo-cont p{
     display: flex;
 }
 #cont-icon{
@@ -1033,6 +1047,7 @@ main{
 }
 #customer-review{
    display: flex;
+   justify-content:last baseline;
  
 }
 #customer-review h6{
@@ -1060,19 +1075,19 @@ main{
      margin-top: 8%;
 }
 .Haritage-cont a{
-    color: red;
+    color: rgb(145, 32, 32);
     text-decoration-line: none;
     background-color: antiquewhite;
 
 }
 .Haritage-cont button{
-    background-color:goldenrod;
+    background-color:rgb(197, 162, 72);
     color: white;
     border: none;
     font-size: large;
     font-weight: 600;
     gap: 5px;
-
+    padding: 7px;
     border-radius: 16px 16px 16px 16px;
     height: 40px;
     width: 200px;
@@ -1087,10 +1102,10 @@ footer{
 }
 .footer-top{
     width: 100%;
-    height: 61%;
+    height: 60%;
     
     display: flex;
-    gap: 30px;
+    gap: 40px;
     margin-top: 10px;
 }
 .offer-footer{
@@ -1107,11 +1122,14 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    font-size: large;
+    font-size: medium;
     
 }
+#CURRENT-op{
+    border: none;
+}
 .offer-footer ul li{
-border-bottom: 1px solid rgb(197, 111, 111);
+border-bottom: 1px solid rgb(131, 105, 105);
 }
 .airlines {
     display: flex;
@@ -1121,23 +1139,26 @@ border-bottom: 1px solid rgb(197, 111, 111);
 .line1{
     display: flex;
     gap: 80px;
+    margin-top: 15px;
     
 }
 .line1 ul{
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 9px;
 }
 .download-footer{
     margin-top: 15px;
-    width: 100%;
+    width: 97%;
     height: 25%;
     border-top: 1PX solid rgb(199, 143, 143);
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
     padding: 5px;
+    margin-left: 15px;
     
 
 }
@@ -1177,7 +1198,7 @@ border-bottom: 1px solid rgb(197, 111, 111);
     justify-content: ;
 }
 #copy-write{
-    width: 100%;
+    width: 98%;
     height: 10%;
     display: flex;
     align-items: center;
